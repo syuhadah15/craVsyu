@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Desserts | craVSyu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container navbar"><a class="brand" href="index.html"><span
+                    class="brand-mark">🧁</span><span>craVSyu</span></a>
+            <nav class="nav-links"><a href="index.html">Home</a><a href="about.html">About Us</a><a class="active"
+                    href="desserts.html">Desserts</a><a href="recipes.html">Recipes</a><a
+                    href="gallery.html">Gallery</a><a href="baking-tips.html">Baking Tips</a><a
+                    href="contact.html">Contact Us</a></nav>
+                <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+                <div class="mobile-menu" id="mobileMenu"><a href="index.html">Home</a><a href="about.html">About Us</a><a href="desserts.html">Desserts</a><a href="recipes.html">Recipes</a><a href="gallery.html">Gallery</a><a href="baking-tips.html">Baking Tips</a><a href="contact.html">Contact Us</a></div><button class="search-btn" id="searchBtn">⌕</button>
+        </div>
+        <div class="container search-wrap" id="searchWrap"><input id="siteSearch" placeholder="Search desserts...">
+        </div>
+    </header>
+    <main class="container">
+        <div class="breadcrumb">Home　&gt;　Desserts</div>
+        <section class="page-head">
+            <h1 class="page-title">Desserts ♡</h1>
+            <p>Choose a category to explore three delicious flavours.</p>
+        </section>
+        <div class="dessert-layout">
+            <aside class="category-panel">
+                <h2>Categories</h2><button class="category-btn" data-category="Cakes">Cakes</button><button
+                    class="category-btn" data-category="Cookies">Cookies</button><button class="category-btn"
+                    data-category="Cupcakes">Cupcakes</button><button class="category-btn"
+                    data-category="Brownies & Bars">Brownies & Bars</button><button class="category-btn"
+                    data-category="Pies & Tarts">Pies & Tarts</button>
+            </aside>
+            <section class="dessert-results">
+                <div class="results-head">
+                    <h2 id="dessertHeading">Cakes ♡</h2><label>Sort by <select id="sortDesserts">
+                            <option value="az">A-Z</option>
+                            <option value="za">Z-A</option>
+                        </select></label>
+                </div>
+                <div id="dessertGrid" class="dessert-grid"></div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div><a class="brand" href="index.html"><span class="brand-mark">🧁</span><span>craVSyu</span></a>
+                <p>Sweet Recipes · Happy Moments</p>
+            </div>
+            <div style="text-align:center">
+                <p>For Educational Purpose ONLY</p>
+                <p>Copyright © NURUL SYUHADAH</p>
+            </div>
+            <div class="social"><a href="https://www.instagram.com/ssyhdh___/" target="_blank">IG</a><a
+                    href="https://www.tiktok.com/" target="_blank">TT</a><a href="https://www.facebook.com/"
+                    target="_blank">f</a><a href="https://www.youtube.com/" target="_blank">▶</a></div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
